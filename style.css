@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+}
+p::first-line{
+    color: red;
+}
+h1{
+    color: rgb(103, 103, 255);
+}
+nav p{
+    color: rgb(0, 0, 104);
+    display: inline;
+}
+nav p:hover{
+    background-color: yellow;
+    color: red;
+}
+a:link{
+    background-color: white;
+    color: blue;
+text-decoration: underline;
+
+}
+a:visited{
+    color: white;
+    background-color: blue;
+text-decoration: underline;
+}
+
+img.float {
+    float: right;
+}
